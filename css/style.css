@@ -1,8 +1,105 @@
 
 
-header , footer {
- background-color: gray;
+ footer {
+   background-color: #222831;
+   width: 100% ;
+   height:  100px ; 
+}
+
+header {
+    background-color: #222831;
+    height: 150px;
+    width: 100%;   
+}
+
+main {
+    width: 960px; 
+    padding: 30px;
+    margin : auto ; 
+}
+
+#logo {
+    margin: 20px;
+    margin-left: 281px;
+}
+
+nav {
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    right: 100px;
+    left: 150px;
+}
+
+li {
+    display: inline-block;
+    padding: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-size: large;
+  color:gray;
+}
+
+#DIV { 
+    display:block;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+
+#pic2 {
+   
+    padding-left: 30px;
+}
+#pic3 {
+    padding-left: 20px;
+}
+
+#lastPic {
+    display: inline;
+}
 
 
+#childDiv {
+    display: block;
+    float: right;
+    height: 400px;
+    width: 480px; 
+}
+
+h2 {
+    font-size:25px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-style: italic;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 30px ;
+    height: 300px;
+    overflow-y: scroll;
+
+}
+
+button {
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    padding: 10px; 
+    font-size: 15px;
+    width: 145px;
+    border-radius: 10px; 
+}
+button{
+    transition: 350ms;
 }
 
